@@ -13,13 +13,13 @@ function contador({ Days, Hours, Minutes, Seconds }) {
 
 
     return (
-        <div className="container">
+        <div className="container ">
             <div className="estrellas">
                 <img src={starts} alt="start" />
             </div>
             <h1>Tu cumpleaños en</h1>
             <div className="CountDown">
-                <div>
+                <div className="Days">
                     <p>{Days}</p>
                     <h3>Days</h3>
                 </div>
